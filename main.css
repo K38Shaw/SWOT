@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+section{
+    width: 50vw;
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: 25vw;
+    margin-top: 15vh;
+}
+.chart{
+    width: 20em;
+    height: 20em;
+    margin: 1em;
+}
+.green{
+    border: 2px solid #009900
+}
+.red{
+    border: 2px solid #d01919
+}
+.green h3{
+    background-color: #009900;
+    padding: 0.75em
+}
+.red h3{
+   background-color: #d01919;
+   padding: 0.75em;
+}
